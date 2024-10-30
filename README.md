@@ -8,7 +8,7 @@ Calculates my weekly and yearly earnings based on the number of hours worked and
 Lists out my current skillset and highlights areas to continue developing.
 Includes an Experience Meter that categorizes me as a "Newbie," "Master-In-Training," or "Veteran" based on my years of expertise.
 
-# Features ✨
+# Features 
 Personalized Greeting: A warm welcome tailored to my career aspirations.
 Earnings Calculator: Calculates weekly and annual income based on my inputted working hours and hourly rate.
 Skill Showcase: A list of my current skills with a motivational reminder to keep learning and growing.
@@ -19,7 +19,7 @@ Applicant Details: Simple details like my full name, goal, years of experience, 
 Experience Meter: A function that categorizes experience level based on input years.
 Skills List: Displays my skill set and nudges me toward mastery in each.
 
-# Why I Made This Project 🎯
+# Why I Made This Project 
 I wanted to create a program that’s both useful and full of personality, reflecting my coding journey and career goals. It’s a simple, fun way to practice Python fundamentals like functions, loops, conditionals, and formatted strings. Plus, it’s a way to showcase my sense of humor and love for storytelling through code!
 
 # Skills Used
