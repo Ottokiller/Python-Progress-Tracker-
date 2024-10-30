@@ -1,0 +1,38 @@
+# Code
+#Applicant Details
+fullName = "Azubike Otito dilichukwu Ekwueme"
+goal = "To be an AI python Developer"
+yearsOfexpertise = 5
+weeklyHours = 40
+hourlyPay = 10
+i_am_hyped = True
+
+#Greetings
+print(f"Pleasure to meet you {fullName}. I see you wish {goal}.'Hyped' to learn what your future is? {i_am_hyped} ")
+print(f"Looking over your profile, your weekly hours is : {weeklyHours}, meaning with a monthly pay will be:", weeklyHours * hourlyPay)
+
+#Expertise
+print(f"{fullName}: I have a particular set of skills, skills acquired over a fairly short career")
+skills = ["HTML", "CSS", "PYTHON", "Problem Solving", "Leadership", "Teamwork"]
+
+#Yearly Progress 
+salary = weeklyHours * hourlyPay * 52
+print("Well, staying consistent with your hours for a year, you could earn as close to: ", salary)
+
+#XP Sorting Hat
+def expMeter(yearsOfexpertise):
+    print(f"if you have {yearsOfexpertise} years of experience")
+    if(yearsOfexpertise == 5):
+        print("then you, my friend, are an AI master-IN-Training")
+    elif(yearsOfexpertise > 5):
+        print("then you, my friend, are a VETERAN")
+    else:
+        print("You are A STRAIGHT NEWBIE... my friend")
+        
+#Singling out your XP
+expMeter(yearsOfexpertise)
+
+#MASTER EXPERTISE
+print("\n Here are the skills you already have but should work on:")
+for skill in skills:
+    print(f"You're one step closer to mastering:{skill}")
